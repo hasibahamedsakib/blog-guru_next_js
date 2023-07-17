@@ -1,0 +1,21 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.navLinks {
+  display: flex;
+  align-items: center;
+}
+.navLinks > li {
+  margin: 0 20px;
+}
+
+.loginBnt {
+  padding: 8px 20px;
+  background-color: #04e204;
+  color: white;
+  font-style: 16px;
+  border-radius: 5px;
+  border: 1px solid #05c305;
+}
