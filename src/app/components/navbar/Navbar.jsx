@@ -39,23 +39,21 @@ const Navbar = () => {
     },
   ];
   return (
-    <div className="container">
-      <nav className={style.navbar}>
-        <Link href="/">
-          <h3 className={noto.className}>BlogGuru</h3>
-        </Link>
-        <ul className={style.navLinks}>
-          {navLinks.map((link) => {
-            return (
-              <li key={link.id}>
-                <Link href={link.path}>{link.title}</Link>
-              </li>
-            );
-          })}
-          <button className={style.loginBnt}>Login</button>
-        </ul>
-      </nav>
-    </div>
+    <nav className={style.navbar}>
+      <Link href="/">
+        <h3 className={noto.className}>BlogGuru</h3>
+      </Link>
+      <ul className={style.navLinks}>
+        {navLinks.map((link) => {
+          return (
+            <li key={link.id}>
+              <Link href={link.path}>{link.title}</Link>
+            </li>
+          );
+        })}
+        <button className={style.loginBnt}>Login</button>
+      </ul>
+    </nav>
   );
 };
 

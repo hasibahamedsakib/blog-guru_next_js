@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React from "react";
 export const metadata = {
   title: "Dashboard - Blog Guru",
@@ -9,13 +10,13 @@ const layout = ({ children }) => {
       <nav>
         <ul>
           <li>
-            <a href="/">Home</a>
+            <Link href="/dashboard">Home</Link>
           </li>
           <li>
-            <a href="/dashboard/login">Login</a>
+            <Link href="/dashboard/login">Login</Link>
           </li>
           <li>
-            <a href="/dashboard/register">Register</a>
+            <Link href="/dashboard/register">Register</Link>
           </li>
         </ul>
       </nav>

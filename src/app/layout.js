@@ -14,9 +14,11 @@ const RootLayout = ({ children }) => {
   return (
     <html lang="en">
       <body className={noto.className}>
-        <Navbar />
-        {children}
-        <Footer />
+        <div className="layout_container">
+          <Navbar />
+          {children}
+          <Footer />
+        </div>
       </body>
     </html>
   );

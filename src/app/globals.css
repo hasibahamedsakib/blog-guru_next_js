@@ -1,8 +1,16 @@
-.container {
-  width: 100%;
+.layout_container {
   max-width: 1260px;
+  min-height: 100vh;
   margin: 0 auto;
-  padding: 0 20px;
+  padding: 0 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+body {
+  background-color: #333;
+  color: #fff;
 }
 
 li {
