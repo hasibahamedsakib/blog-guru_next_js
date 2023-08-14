@@ -12,10 +12,11 @@
 }
 
 .loginBnt {
-  padding: 8px 20px;
-  background-color: #04e204;
+  padding: 8px 25px;
+  background-color: #53c38b;
   color: white;
-  font-style: 16px;
+  font-size: 16px;
   border-radius: 5px;
-  border: 1px solid #05c305;
+  border: 1px solid #53c38b;
+  cursor: pointer;
 }

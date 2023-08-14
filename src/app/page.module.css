@@ -2,8 +2,29 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  gap: 50px;
+  flex-wrap: wrap;
 }
-.home_text {
-}
+.home_text,
 .home_image {
+  flex: 1;
+}
+
+.home_text > h1 {
+  font-size: 65px;
+  background: linear-gradient(to bottom, #53c38b, #bbb);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.home_text > p {
+  font-size: 24px;
+  font-weight: 300;
+  color: #ddd;
+}
+
+.home_img {
+  width: 500px;
+  height: 100%;
+  object-fit: cover;
 }
