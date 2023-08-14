@@ -1,0 +1,60 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+  gap: 40px;
+  align-items: center;
+}
+.heading {
+  font-size: 40px;
+  color: #ddd;
+  text-align: center;
+  margin: 20px 0;
+}
+.contactImg,
+.contactForm {
+  flex: 1;
+  padding: 0px 20px;
+}
+
+.image {
+  width: 500px;
+  height: 500px;
+  object-fit: cover;
+  animation: move 3s infinite ease alternate;
+}
+
+@keyframes move {
+  from {
+    transform: translateY(-15px);
+  }
+  to {
+    transform: translateY(0px) scale(1.02);
+  }
+}
+
+.contactForm > form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.form > input {
+  height: 50px;
+  background-color: transparent;
+  border: 2px solid #bbb;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  font-size: 16px;
+  color: #fff;
+  padding: 5px 15px;
+}
+.form > textarea {
+  background-color: transparent;
+  border: 2px solid #bbb;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  font-size: 18px;
+  color: #fff;
+  padding: 5px 15px;
+  resize: none;
+}
