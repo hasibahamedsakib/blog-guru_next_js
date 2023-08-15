@@ -1,3 +1,4 @@
+import ThemeProvider from "./Context/DarkMode";
 import Footer from "./components/footer/Footer";
 import Navbar from "./components/navbar/Navbar";
 import "./globals.css";
@@ -14,11 +15,13 @@ const RootLayout = ({ children }) => {
   return (
     <html lang="en">
       <body className={noto.className}>
-        <div className="layout_container">
-          <Navbar />
-          {children}
-          <Footer />
-        </div>
+        <ThemeProvider>
+          <div className="layout_container">
+            <Navbar />
+            {children}
+            <Footer />
+          </div>
+        </ThemeProvider>
       </body>
     </html>
   );

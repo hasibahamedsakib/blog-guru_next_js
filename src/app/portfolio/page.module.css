@@ -1,0 +1,40 @@
+.heading {
+  font-size: 50px;
+  color: #ddd;
+}
+.subHeading {
+  font-size: 25px;
+  color: #ddd;
+  padding-bottom: 15px;
+}
+.container {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+.items {
+  border: 5px solid #ddd;
+  border-radius: 5px;
+  width: 280px;
+  height: 360px;
+  background-size: cover;
+  position: relative;
+}
+.items > h3 {
+  position: absolute;
+  font-size: 25px;
+  bottom: 0px;
+  right: 20px;
+}
+.items:hover h3 {
+  color: #53c38b;
+}
+.items:first-child {
+  background-image: url("/illustration.png");
+}
+.items:nth-child(2) {
+  background-image: url("/websites.jpg");
+}
+.items:last-child {
+  background-image: url("/apps.jpg");
+}

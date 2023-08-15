@@ -17,7 +17,7 @@
   background-color: #53c38b;
   padding: 5px 20px;
   border-radius: 5px;
-  line-height: 5px;
+  color: #fff;
 }
 .text > h3 {
   font-size: 25px;
@@ -26,8 +26,10 @@
   font-size: 20px;
 }
 .textContainer {
+  padding-top: 20px;
   display: flex;
   justify-content: space-between;
   align-items: center;
   gap: 40px;
+  line-height: 32px;
 }

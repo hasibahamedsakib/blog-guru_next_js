@@ -28,11 +28,9 @@ const AboutPage = () => {
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi alias
             minus illo molestias laboriosam.
             <br />
-            <br />
             Aliquid enim vel voluptate vero, odit veritatis est? Eum, laborum
             omnis nostrum blanditiis quam repellat excepturi voluptatum! Eos
             animi commodi nobis mollitia facere quasi? Modi, iure.
-            <br />
             <br />
             Laudantium omnis, temporibus natus quo perspiciatis commodi eos ad,
             soluta minus ut est neque debitis qui, culpa nihil odit voluptatum!

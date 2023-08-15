@@ -2,6 +2,7 @@ import Link from "next/link";
 import React from "react";
 import style from "./navbar.module.css";
 import { Noto_Sans_Armenian } from "next/font/google";
+import DarkModeToggle from "../DarkModeToggle/DarkModeToggle";
 const noto = Noto_Sans_Armenian({
   subsets: ["latin"],
 });
@@ -44,6 +45,7 @@ const Navbar = () => {
         <h3 className={noto.className}>BlogGuru</h3>
       </Link>
       <ul className={style.navLinks}>
+        <DarkModeToggle />
         {navLinks.map((link) => {
           return (
             <li key={link.id}>
